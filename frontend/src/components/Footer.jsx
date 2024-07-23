@@ -8,23 +8,32 @@ const Footer = () => {
         <div className="footer-section about">
           <h2 className="text-xl font-bold text-blue-200">About Us</h2>
           <p>
-         ResumeHub is a open source Resume Builder.Build your own resume with our ResumeHub.       
-            </p>
+            ResumeHub is a open source Resume Builder.Build your own resume with
+            our ResumeHub.
+          </p>
         </div>
         <div className="footer-section links">
           <h2 className="text-xl font-bold text-blue-200">Quick Links</h2>
           <ul>
             <li>
-              <a className="hover:text-blue-200" href="/">Home</a>
+              <a className="hover:text-blue-200" href="/">
+                Home
+              </a>
             </li>
             <li>
-              <a className="hover:text-blue-200" href="/about">About</a>
+              <a className="hover:text-blue-200" href="/about">
+                About
+              </a>
             </li>
             <li>
-              <a className="hover:text-blue-200" href="/services">Services</a>
+              <a className="hover:text-blue-200" href="/services">
+                Services
+              </a>
             </li>
             <li>
-              <a className="hover:text-blue-200" href="/contact">Contact</a>
+              <a className="hover:text-blue-200" href="/contact">
+                Contact
+              </a>
             </li>
           </ul>
         </div>
@@ -50,7 +59,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom text-left text-sm">
-        &copy; 2024 Company Name | Designed by You
+        &copy; 2024 Zidio Development | Designed by Uwais Jawed
       </div>
     </footer>
   );
